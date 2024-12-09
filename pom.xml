@@ -9,10 +9,6 @@
     <version>0.0.5</version>
     <repositories>
         <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-        <repository>
             <id>crucibleframeworkbrowser</id>
             <url>https://maven.pkg.github.com/EliassenInnovation/crucibleframeworkbrowser</url>
             <releases>
@@ -22,6 +18,10 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
+            <repository>
+               <id>jitpack.io</id>
+               <url>https://jitpack.io</url>
+            </repository>
     </repositories>
     <distributionManagement>
         <repository>
