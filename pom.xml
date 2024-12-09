@@ -13,8 +13,8 @@
             <url>https://jitpack.io</url>
         </repository>
         <repository>
-            <id>Lightwell.MVN</id>
-            <url>https://pkgs.dev.azure.com/lightwellinc-clouddev/_packaging/Lightwell.MVN/maven/v1</url>
+            <id>crucibleframeworkbrowser</id>
+            <url>https://maven.pkg.github.com/EliassenInnovation/crucibleframeworkbrowser</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -26,8 +26,8 @@
     <distributionManagement>
         <repository>
             <uniqueVersion>false</uniqueVersion>
-            <id>Lightwell.MVN</id>
-            <url>https://pkgs.dev.azure.com/lightwellinc-clouddev/_packaging/Lightwell.MVN/maven/v1</url>
+            <id>crucibleframeworkbrowser</id>
+            <url>https://maven.pkg.github.com/EliassenInnovation/crucibleframeworkbrowser</url>
         </repository>
     </distributionManagement>
     <dependencies>
