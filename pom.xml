@@ -18,6 +18,10 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>cruciblecommon</id>
+            <url>https://maven.pkg.github.com/EliassenInnovation/cruciblecommon</url>
+        </repository>
             <repository>
                <id>jitpack.io</id>
                <url>https://jitpack.io</url>
@@ -33,7 +37,7 @@
     <dependencies>
         <dependency>
             <groupId>com.eliassen.crucible</groupId>
-            <artifactId>common</artifactId>
+            <artifactId>cruciblecommon</artifactId>
             <version>1.1.0</version>
         </dependency>
         <dependency>
